@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>WebBotTest</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" href="http://localhost:8000/landing/widget.css" />
+</head>
+
+<body>
+  <app-root></app-root>
+
+  <script src="http://localhost:8000/landing/widget.js"></script>
+  <script>
+    var options = {
+      "header_logo": "http://localhost:8000/bundles/webbot/imgs/default_logo.png",
+      "header_color": "#fffefd",
+      "bot_side_color": "#f2f2f5",
+      "user_side_color": "#ca2127",
+      "font_family": "Biotif",
+      "chat_bubble_shape": "rounded_style",
+      "chat_avatar": "http://localhost:8000/bundles/webbot/imgs/default_logo.png",
+      "background_type": "Color",
+      "background_color": "#efefef",
+      "background_gradient_from": "#f7f7f7",
+      "background_gradient_to": "#868686",
+      "background_gradient_angel": 70,
+      "background_image": "http://localhost:8000/bundles/webbot/imgs/default_logo.png",
+      "background_image_background_color": "#dddddd",
+      "background_image_opacity": 50,
+      "botId": 913,
+      "channelId": "wb_5ce13d7fded5781284291037",
+      "welcome": "c7cee85807363cda9a3e4d90835cf1ca",
+      "target": document.body
+    }
+    var widget = JSWidget.initialize(options);
+
+  </script>
+</body>
+
+</html>
